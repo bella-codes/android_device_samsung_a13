@@ -11,7 +11,6 @@ $(call inherit-product, device/samsung/a13/device.mk)
 PRODUCT_PACKAGES += \
     charger_res_images
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a13/recovery/root,recovery/root)
 
 # Device identifier
 PRODUCT_RELEASE_NAME := a13
